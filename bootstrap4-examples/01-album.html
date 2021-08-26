@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bootstrap 4</title>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+      .header_p {
+        line-height: 28px;
+        font-size: 16px;
+      }
+      .btn {
+        border: none;
+      }
+      .btn:focus,
+      .btn:active {
+        outline: none;
+        box-shadow: none;
+      }
+      .card-img-top {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .card1 {
+        background-image: url(https://images.unsplash.com/photo-1481535668376-4c3ab7d84e7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+      }
+      .card2 {
+        background-image: url(https://images.unsplash.com/photo-1496192173661-0361468cb14a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+      }
+      .card3 {
+        background-image: url(https://images.unsplash.com/photo-1481800997946-d2a9f2c82683?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+      }
+      .card4 {
+        background-image: url(https://images.unsplash.com/photo-1448318440207-ef1893eb8ac0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+      }
+      .card5 {
+        background-image: url(https://images.unsplash.com/photo-1487383298905-ee8a6b373ff9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+      }
+      .card6 {
+        background-image: url(https://images.unsplash.com/photo-1495161054557-8377ed519797?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="bg-light collapse" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="lead">About</h4>
+              <p class="lead text-muted header_p">
+                Add some information about the album below, the author, or any
+                other background context. Make it a few sentences long so folks
+                can pick up some informative tidbits. Then, link them off to
+                some social networking sites or contact information.
+              </p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="lead">Contact</h4>
+              <a class="lead text-muted header_p" href="mailto:yozdom@naver.com"
+                >yozdom@naver.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //navbarHeader-->
+      <div class="navbar navbar-light bg-light">
+        <div class="container">
+          <a class="lead text-dark" href="#">Suyeon Yang</a>
+          <button
+            class="btn navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarHeader"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+      <!-- //navbar-->
+    </header>
+    <!-- //header-->
+    <main>
+      <section class="jumbotron text-center bg-white mt-4">
+        <h1 class="display-4">안녕하세요<br />양수연입니다</h1>
+        <p class="lead text-muted mt-3">부트스트랩 연습 페이지입니다.</p>
+      </section>
+      <!-- //jumbotron -->
+      <section class="album bg-light py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 my-4">
+              <div class="card">
+                <svg
+                  class="bg-dark card-img-top card1"
+                  width="100%"
+                  height="300px"
+                ></svg>
+                <div class="card-body">
+                  <h2 class="lead">Title</h2>
+                  <p class="small text-muted">Contents</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-4">
+              <div class="card">
+                <svg
+                  class="bg-dark card-img-top card2"
+                  width="100%"
+                  height="300px"
+                ></svg>
+                <div class="card-body">
+                  <h2 class="lead">Title</h2>
+                  <p class="small text-muted">Contents</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-4">
+              <div class="card">
+                <svg
+                  class="bg-dark card-img-top card3"
+                  width="100%"
+                  height="300px"
+                ></svg>
+                <div class="card-body">
+                  <h2 class="lead">Title</h2>
+                  <p class="small text-muted">Contents</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-4">
+              <div class="card">
+                <svg
+                  class="bg-dark card-img-top card4"
+                  width="100%"
+                  height="300px"
+                ></svg>
+                <div class="card-body">
+                  <h2 class="lead">Title</h2>
+                  <p class="small text-muted">Contents</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-4">
+              <div class="card">
+                <svg
+                  class="bg-dark card-img-top card5"
+                  width="100%"
+                  height="300px"
+                ></svg>
+                <div class="card-body">
+                  <h2 class="lead">Title</h2>
+                  <p class="small text-muted">Contents</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-4">
+              <div class="card">
+                <svg
+                  class="bg-dark card-img-top card6"
+                  width="100%"
+                  height="300px"
+                ></svg>
+                <div class="card-body">
+                  <h2 class="lead">Title</h2>
+                  <p class="small text-muted">Contents</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //album-->
+      <footer class="py-5">
+        <div class="container">
+          <p class="text-muted">Bootstrap album example practice</p>
+          <a
+            href="https://getbootstrap.com/docs/4.4/examples/album/"
+            target="_blank"
+            >https://getbootstrap.com/docs/4.4/examples/album/</a
+          >
+          <a class="float-right" href="#">back to top</a>
+        </div>
+      </footer>
+    </main>
+    <!-- //main-->
+  </body>
+</html>
